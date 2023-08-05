@@ -28,7 +28,7 @@ For specific theoretical details and the current researchs of DMP, you can refer
 > Saveriano, Matteo, et al. "Dynamic movement primitives in robotics: A tutorial survey." arXiv preprint arXiv:2102.03861 (2021).
 
 ## 2. About this project
-After the theoretical learning, I built the following three demos to further deepen the understanding and application of DMP:
+After the theoretical learning, Cheems_JH built the following three demos to further deepen the understanding and application of DMP:
 - Verify the DMP model through 1D-trajectory numerical simulation
 - Understanding how DMP guides a simple system to perform 2D-trajectory demonstration learning;
 - Obtaining data of virtual robotic arm through 3D simulation, and exploring its implementation of demonstration learning based on DMP.

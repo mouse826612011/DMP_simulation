@@ -2,6 +2,7 @@
 <img src="pictures/cheems.jpg" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="250" height="178">
      
+     
 A simulation project on `Dynamic Movement Primitive (DMP)` , containing 1D numerical simulation, 2D learning from demonstration and 3D simulation for robotic arm.
 
   * [1. About DMP](#1-about-dmp)

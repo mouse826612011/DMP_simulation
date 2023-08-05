@@ -3,7 +3,12 @@
      alt="Size Limit logo by Anton Lovchikov" width="250" height="178">
 A simulation project on Dynamic Movement Primitive (DMP) , containing 1D numerical simulation, 2D learning from demonstration and 3D simulation for robotic arm.
 
--[Heading One](## 1. About DMP)
+  * [1. About DMP](#1-about-dmp)
+  * [2. About this project](#2-about-this-project)
+  * [3. Development environment](#3-development-environment)
+  * [4. Simulations](#4-simulations)
+    + [1D numerical simulation](#1d-numerical-simulation)
+
 
 ## 1. About DMP
 Supported by several experimental findings, that biological systems are able to combine and adapt basic units of motion into complex tasks, which finally lead to the formulation of the motor primitives theory. In this respect, Dynamic Movement Primitives (DMPs) represent an elegant mathematical formulation of the motor primitives as stable dynamical systems, and are well suited to generate motor commands for artificial systems like robots.

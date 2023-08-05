@@ -1,7 +1,9 @@
 # DMP_simulation
+<img src="https://ai.github.io/size-limit/logo.svg" align="right"
+     alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
 A simulation project on Dynamic Movement Primitive (DMP) , containing 1D numerical simulation, 2D learning from demonstration and 3D simulation for robotic arm.
 
-<font color="red">标签中的字会显示为红色</font> 之后的字不会再显示为红色
+-[Heading One](## 1. About DMP)
 
 ## 1. About DMP
 Supported by several experimental findings, that biological systems are able to combine and adapt basic units of motion into complex tasks, which finally lead to the formulation of the motor primitives theory. In this respect, Dynamic Movement Primitives (DMPs) represent an elegant mathematical formulation of the motor primitives as stable dynamical systems, and are well suited to generate motor commands for artificial systems like robots.

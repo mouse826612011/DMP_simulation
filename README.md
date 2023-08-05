@@ -1,6 +1,6 @@
 # DMP_simulation
 <img src="pictures/cheems.jpg" align="right"
-     alt="Size Limit logo by Anton Lovchikov" width="250" height="178">
+     alt="Size Limit logo by Anton Lovchikov" width="350" height="200">
      
      
 A simulation project on `Dynamic Movement Primitive (DMP)` , containing 1D numerical simulation, 2D learning from demonstration and 3D simulation for robotic arm.
@@ -37,4 +37,8 @@ After the theoretical learning, I built the following three demos to further dee
 Windows10(no GPU) + PyCharm(2023.2) + python3.9
 
 ## 4. Simulations
-### 1D numerical simulation
+### A. Numerical simulation 1-D
+Code path: ` `
+This is a numerical simulation for 1-dimension data based on discrete DMP,
+
+### B. Learning from demonstration 2-D

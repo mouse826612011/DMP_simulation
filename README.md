@@ -38,7 +38,8 @@ Windows10(no GPU) + PyCharm(2023.2) + python3.9
 
 ## 4. Simulations
 ### A. Numerical simulation 1-D
-Code path: ` `
+Code path: `/python/discrete_dmp_1D.py`.
+
 This is a numerical simulation for 1-dimension data based on discrete DMP,
 
 ### B. Learning from demonstration 2-D

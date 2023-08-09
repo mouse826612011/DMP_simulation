@@ -94,13 +94,12 @@ y_re, dy_re, ddy_re = dmp.reproduction(start=1.0, target=0.5, tau=2.0)
 
 ### B. Two-link robotic arm learning from demonstration 2-D
 This is a numerical simulation for 1-dimension data based on discrete DMP:
-- Code path: `/python/twolink_roboticarm_dmp_2D.py`.
-- Packages: `numpy, scipy, matplotlib`.
-- Custom packages to use: `/python/discrete_dmp_1D.py`.
+- Code path: `/python/twolink_roboticarm_dmp_2D.py`. Before run this code, you also need to download `/python/discrete_dmp_1D.py`.
+- Packages: `numpy, scipy, matplotlib, sys, pygame, math, discrete_dmp_1D`.
 
-You can see how the simulation works in the following GIF:
+You can see how the simulation works in the following GIF: the trajectory of the mouse drawn on the UI is used for DMP training, and the trained DMP model is further used to guide the two-link robotic arm to reproduce this skill.
 <p align="center">
-  <img src="pictures/A_results2.png" alt="Statoscope example" width="600">
+  <img src="pictures/B_results1.gif" alt="Statoscope example" width="600">
 </p>
 
 ### C. Numerical simulation 1-D

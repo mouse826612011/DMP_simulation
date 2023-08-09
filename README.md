@@ -5,11 +5,16 @@
      
 A simulation project on `Dynamic Movement Primitive (DMP)` , containing 1D numerical simulation, 2D learning from demonstration and 3D simulation for robotic arm.
 
+- [DMP_simulation](#dmp-simulation)
   * [1. About DMP](#1-about-dmp)
   * [2. About this project](#2-about-this-project)
   * [3. Development environment](#3-development-environment)
-  * [4. Simulations](#4-simulations)
-    + [1D numerical simulation](#1d-numerical-simulation)
+  * [4. Simulations and How to use](#4-simulations-and-how-to-use)
+    + [A. Numerical simulation 1-D](#a-numerical-simulation-1-d)
+    + [B. Two-link robotic arm learning from demonstration 2-D](#b-two-link-robotic-arm-learning-from-demonstration-2-d)
+    + [C. Numerical simulation 1-D](#c-numerical-simulation-1-d)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 ## 1. About DMP

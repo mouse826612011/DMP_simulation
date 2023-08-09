@@ -107,6 +107,11 @@ And when the UI is turned off, the program will also pop up the training effect 
   <img src="pictures/B_results1_1.png" alt="Statoscope example" width="600">
 </p>
 
+You can also control the rate of the roboitc arm `k_interpolation`, the accuracy of the fit `n_rbf`, and the target position and size of the generalization `start_bias_x, start_bias_y, target_bias_x, target_bias_y` by setting the parameters on lines 19-25 in source code.
 
+As you can see in the GIF below, I drew the number 2 and set a parameter to adjust the position and enlarge the skill when generalizing:
+<p align="center">
+  <img src="pictures/B_results2.gif" alt="Statoscope example" width="600">
+</p>
 
 ### C. Numerical simulation 1-D

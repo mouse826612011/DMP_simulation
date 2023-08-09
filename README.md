@@ -36,7 +36,7 @@ After the theoretical learning, Cheems_JH built the following three demos to fur
 ## 3. Development environment
 Windows10(no GPU) + PyCharm(2023.2) + python3.9
 
-## 4. Simulations
+## 4. Simulations and How to use
 ### A. Numerical simulation 1-D
 This is a numerical simulation for 1-dimension data based on discrete DMP:
 - Code path: `/python/discrete_dmp_1D.py`.
@@ -101,5 +101,12 @@ You can see how the simulation works in the following GIF: the trajectory of the
 <p align="center">
   <img src="pictures/B_results1.gif" alt="Statoscope example" width="600">
 </p>
+
+And when the UI is turned off, the program will also pop up the training effect of DMP for the demonstration:
+<p align="center">
+  <img src="pictures/B_results1_1.png" alt="Statoscope example" width="600">
+</p>
+
+
 
 ### C. Numerical simulation 1-D

@@ -12,9 +12,10 @@ A simulation project on `Dynamic Movement Primitive (DMP)` , containing 1D numer
   * [4. Simulations and How to use](#4-simulations-and-how-to-use)
     + [A. Numerical simulation 1-D](#a-numerical-simulation-1-d)
     + [B. Two-link robotic arm learning from demonstration 2-D](#b-two-link-robotic-arm-learning-from-demonstration-2-d)
-    + [C. Numerical simulation 1-D](#c-numerical-simulation-1-d)
+    + [C. DMP-based learning from demonstration of Emika Panda 3D (pybullet)](#c-dmp-based-learning-from-demonstration-of-emika-panda-3d--pybullet-)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 ## 1. About DMP

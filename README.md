@@ -119,4 +119,7 @@ As you can see in the GIF below, I drew the number 2 and set a parameter to adju
   <img src="pictures/B_results2.gif" alt="Statoscope example" width="600">
 </p>
 
-### C. Numerical simulation 1-D
+### C. DMP-based learning from demonstration of Emika Panda 3D (pybullet)
+This is a 3D simulation for DMP based learning from demonstration of robotic arm (Emika Panda) based on Pybullet:
+- Code path: `/python/panda_get_demo.py` and `/python/panda_DMP_reproduction.py`. Before run the above two codes, you also need to download `/python/discrete_dmp_1D.py` and `/python/demonstrations/demo2023-08-21_13-21-12.xlsx`.
+- Packages: `pybullet, numpy, scipy, discrete_dmp_1D, openpyxl`.

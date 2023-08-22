@@ -124,3 +124,24 @@ As you can see in the GIF below, I drew the number 2 and set a parameter to adju
 This is a 3D simulation for DMP based learning from demonstration of robotic arm (Emika Panda) based on Pybullet:
 - Code path: `/python/panda_get_demo.py` and `/python/panda_DMP_reproduction.py`. Before run the above two codes, you also need to download `/python/discrete_dmp_1D.py` and `/python/demonstrations/demo2023-08-21_13-21-12.xlsx`.
 - Packages: `pybullet, numpy, scipy, discrete_dmp_1D, openpyxl`.
+
+STEP 1: Teaching robotic arm and get data of demonstration
+
+You can run `/python/panda_get_demo.py` to get demonstrations: as GIF below, dragging the slider with the mouse can control the movement of each joint of the manipulator and the gripper. 
+When the demonstration is over, press the keyboard 'q' key to exit, and the program will save the.xlsx file named "demo+ current time" in the current directory to store data of this demonstration.
+<p align="center">
+  <img src="pictures/get_demo.gif" alt="Statoscope example" width="600">
+</p>
+
+A demonstration is already recorded in file `/python/demonstrations/demo2023-08-21_13-21-12.xlsx` on this page, where I control the robotic arm  grabs the middle blue object and then places it into the red area.
+
+STEP 2: Reproduction or generalization
+
+After demonstration, you can run `//python/panda_DMP_reproduction.py` to reproduction or generalizations the demonstration.
+On line 36 in code, you can read different demos by changing the value of the variable `data_path`. And you can use the parameters on lines 28 through 32 to do generalization or time scaling, as described above.
+
+This gif is a reproduction result of a Pick-and-Place task:
+<p align="center">
+  <img src="pictures/demo_re.gif" alt="Statoscope example" width="600">
+</p>
+

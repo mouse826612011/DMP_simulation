@@ -149,3 +149,7 @@ And can also generalize the task to place the object in the red area by modifyin
 <p align="center">
   <img src="pictures/demo_ge.gif" alt="Statoscope example" width="600">
 </p>
+
+NOTE:
+- Since there is no collision detection and feasible detection for the generalized path in the code, the generalization may collide through the mold or the trajectory is unreachable.
+- Since DMP is a training demonstration and is essentially data fitting rather than truly "understanding" the task. Therefore, even if the generalization trajectories are possible and do not collide, it is possible that the generalization will not be successful.

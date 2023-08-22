@@ -137,7 +137,7 @@ A demonstration is already recorded in file `/python/demonstrations/demo2023-08-
 
 STEP 2: Reproduction or generalization
 
-After demonstration, you can run `//python/panda_DMP_reproduction.py` to reproduction or generalizations the demonstration.
+After demonstration, you can run `/python/panda_DMP_reproduction.py` to reproduction or generalizations the demonstration.
 On line 36 in code, you can read different demos by changing the value of the variable `data_path`. And you can use the parameters on lines 28 through 32 to do generalization or time scaling, as described above.
 
 This gif is a reproduction result of a Pick-and-Place task:
@@ -145,3 +145,7 @@ This gif is a reproduction result of a Pick-and-Place task:
   <img src="pictures/demo_re.gif" alt="Statoscope example" width="600">
 </p>
 
+And can also generalize the task to place the object in the red area by modifying the target point:
+<p align="center">
+  <img src="pictures/demo_ge.gif" alt="Statoscope example" width="600">
+</p>

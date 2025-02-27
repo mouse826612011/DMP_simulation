@@ -19,19 +19,19 @@ A simulation project on `Dynamic Movement Primitive (DMP)` , containing 1D numer
 
 
 ## 1. About DMP
-Supported by several experimental findings, that biological systems are able to combine and adapt basic units of motion into complex tasks, which finally lead to the formulation of the motor primitives theory. In this respect, Dynamic Movement Primitives (DMPs) represent an elegant mathematical formulation of the motor primitives as stable dynamical systems, and are well suited to generate motor commands for artificial systems like robots.
-
+Supported by several experimental findings, researchers find that biological systems are able to combine and adapt basic units of motion into complex tasks, which finally lead to the formulation of the motor primitives theory. In this respect, Dynamic Movement Primitives (DMPs) represent an elegant mathematical formulation of the motor primitives as stable dynamical systems, and are well suited to generate motor commands for artificial systems like robots.
 DMP was initially proposed by Schaal et al. in 2002, as the most classical theories for implementing robot imitation learning. Its various extended forms and wide-ranging applications have been prevalent in research over the past two decades.
 DMP is based on a set of nonlinear differential equations to describe motion trajectories and utilizes a group of Radial Basis Functions (RBFs) for approximation and generation of movements. The DMP model can be applied to various motions, including robotic arm movements, robot path planning, human motion imitation, handwriting and speech generation, among others. 
 
-Classic DMPs include **discrete** and **rhythmic** types, primarily composed of two components: **the forcing term** and **the feedback term**:
-- The forcing term describes the desired movement trajectory, which is typically obtained through demonstrations or manually set target trajectories. It is used to guide the generated movement along the desired trajectory.
-- The feedback term is employed for adaptive control, enabling the generated movement to adapt to changes and disturbances in the environment. The introduction of the feedback term provides the DMP model with robustness and adaptability.
+From my personal perspective, DMP (Dynamic Movement Primitives) is a forced dynamic system:
+(1) The dynamic system ensures that it can generate smooth and stable outputs, which distinguishes DMP from other purely data-driven primitives (such as ProMP and GP), making it more suitable for guiding the motion of actuators in other dynamic systems.
+(2) The forcing terms are the core of DMP, typically composed of multiple radial basis functions (RBFs). By calculated the weights of RBFs based on the expert data, DMP can use the forcing term to guide the dynamic system’s output to match the dynamic features of the expert demonstration during generation.
+(3) It is worth noting that DMP also includes an automatically generated regularization term that gradually decays to zero, its main function is to gradually reduce the influence of the forcing term on the dynamic system, allowing the output of the dynamic system to converge to the target state.
 
-The generation process of the DMP model includes two stages: training and reproduction. In the training stage, the parameters of the basis functions and the weights of the feedback term are adjusted by learning from the demonstrated trajectories, resulting in a suitable DMP model. In the reproduction stage, the initial conditions, motion goals, spatial scaling, and temporal scaling can be flexibly set according to the requirements. Finally, by computing the output of the DMP model using the above parameters, it is possible to achieve the reproduction or generalization of the demonstrated trajectories.
+The usage of the DMP model includes two stages: training and reproduction. In the training stage, the parameters of the basis functions (RBFs) are learned from the demonstrated data, resulting in a suitable DMP model. In the reproduction stage, the initial conditions, motion goals, spatial scaling, and temporal scaling can be flexibly set according to the requirements. Finally, by computing the output of the DMP model using the above parameters, it is possible to achieve the reproduction or generalization of the demonstrated motions.
 
 For specific theoretical details and the current researchs of DMP, you can refer to the survey: 
-> Saveriano, Matteo, et al. "Dynamic movement primitives in robotics: A tutorial survey." arXiv preprint arXiv:2102.03861 (2021).
+> Saveriano, Matteo, et al. "Dynamic movement primitives in robotics: A tutorial survey." The International Journal of Robotics Research 42.13 (2023): 1133-1184.
 
 ## 2. About this project
 After the theoretical learning, Cheems_JH built the following three demos to further deepen the understanding and application of DMP:
